@@ -33,11 +33,13 @@ Node.js (v20 ou superior)
 PostgreSQL
 Gerenciador de pacotes (npm ou yarn)
 Configuração do Ambiente
+
 1. Clonar o Repositório
 bash
 Copiar código
 git clone https://github.com/seu-usuario/projeto-final.git
 cd projeto-final
+
 2. Configuração do Banco de Dados
 Certifique-se de criar um banco de dados no PostgreSQL com as credenciais configuradas no arquivo .env:
 
@@ -49,12 +51,14 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_DATABASE=livraria
 JWT_SECRET=sua_chave_secreta
+
 3. Instalação de Dependências
 Execute o comando abaixo para instalar todas as dependências do projeto:
 
 bash
 Copiar código
 npm install
+
 4. Executar o Servidor
 Em modo de desenvolvimento:
 bash
@@ -69,10 +73,13 @@ Para executar os testes, utilize o comando:
 
 bash
 Copiar código
+
 npm test
 Estrutura do Projeto
+
 bash
 Copiar código
+
 projeto-final/
 ├── src/
 │   ├── config/
@@ -94,6 +101,7 @@ projeto-final/
 ├── tsconfig.json             # Configuração do TypeScript
 ├── package.json              # Dependências e scripts
 └── README.md                 # Documentação do projeto
+
 Endpoints Disponíveis
 Autenticação
 POST /auth/register - Cadastro de um novo usuário.
@@ -103,6 +111,7 @@ GET /api/books - Listar todos os livros.
 POST /api/books - Adicionar um novo livro.
 PUT /api/books/:id - Atualizar informações de um livro.
 DELETE /api/books/:id - Excluir um livro.
+
 Possíveis Melhorias Futuras
 Implementar paginação na listagem de livros.
 Adicionar níveis de acesso (admin e usuário comum).
