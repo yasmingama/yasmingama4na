@@ -1,4 +1,4 @@
-README do Projeto Final - Backend de Livraria
+Projeto Final - Backend de Livraria
 Descrição do Projeto
 Este é um backend desenvolvido para gerenciar uma aplicação de livraria. O sistema permite o gerenciamento de usuários e livros, incluindo autenticação, cadastro, atualização e exclusão. Ele foi construído utilizando Node.js, TypeScript, e integra-se com um banco de dados PostgreSQL e APIs externas.
 
